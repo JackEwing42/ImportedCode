@@ -9,7 +9,7 @@ int main()
 	cout << "This program calculates the average of three numbers." << endl;
 	cout << "First number: "; cin >> n1;
 	cout << "Second number: "; cin >> n2;
-	cout << "Third number: "; cin >> n2;
+	cout << "Third number: "; cin >> n3;
 
 	float a = average(n1, n2, n3);
 
@@ -18,7 +18,7 @@ int main()
 	return 0;
 }
 
-float average(int s1, int s2, int s3)
+float average(int i1, int i2, int i3)
 {
-	return (s1 + s2 + s3) / 3.0f;
+	return (i1 + i2 + i3) / 3.0f;
 }
